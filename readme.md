@@ -15,7 +15,7 @@ An API + GUI-based Python application to determine eligibility for college admis
 
 ## 📂 Project Structure
 
-college_admission/
+<!-- college_admission/
 ├── app.py # FastAPI server
 ├── gui_app.py # Tkinter GUI application
 ├── eligibility.py # Core eligibility logic
@@ -25,5 +25,5 @@ college_admission/
 ├── test_cases/ # Sample input JSONs
 ├── log/ # Input/Output logs
 ├── requirements.txt # Python dependencies
-├── README.md # Project overview
+├── README.md # Project overview -->
 └── student_records.db # Generated SQLite DB

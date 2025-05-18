@@ -103,13 +103,13 @@ class EligibilityApp:
             response = requests.post(API_URL, json=payload)
             if response.status_code == 200:
                 result = response.json()
-                messagebox.showinfo("✅ Eligibility Result", json.dumps(result, indent=4))
+                messagebox.showinfo("Eligibility Result", json.dumps(result, indent=4))
             else:
                 error = response.json()
-                messagebox.showerror("❌ Invalid Input", json.dumps(error, indent=4))
+                messagebox.showerror("Invalid Input", json.dumps(error, indent=4))
 
         except Exception as e:
-            messagebox.showerror("🚨 Error", f"Something went wrong:\n{str(e)}")
+            messagebox.showerror("Error", f"Something went wrong:\n{str(e)}")
 
 # Run the GUI
 if __name__ == "__main__":
